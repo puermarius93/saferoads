@@ -13,6 +13,7 @@ export default function App() {
         <Route path='/' element={<Home />} />
         <Route path='/report' element={<Report />} />
         <Route path='/privacy' element={<Privacy />} />
+        <Route path="/safe-route" element={<SafeRouteMap />} />
       </Routes>
     </Router>
   );
