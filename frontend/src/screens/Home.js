@@ -33,7 +33,7 @@ export default function Home() {
 
   // Raggruppa per coordinate
   const grouped = risks.reduce((acc, item) => {
-    const key = \`\${item.location.lat},\${item.location.lng}\`;
+    const key = `${item.location.lat},${item.location.lng}`;
     acc[key] = acc[key] || [];
     acc[key].push(item);
     return acc;
